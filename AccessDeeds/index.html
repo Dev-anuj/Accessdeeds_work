@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>AccessDeeds</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+
+            .bodydown{
+                margin-top: 2px;
+
+            }
+            .box{
+                border:2px solid black;
+                height: 150px;
+                width: 150px;
+                margin-bottom: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: arial;
+                color: black;
+                font-size: 12px;
+                text-align: center;
+            }
+            .box1{
+                background-color: blue;
+            }
+
+          </style>
+    </head>
+
+
+
+
+
+
+    <body class="bodydown">
+        <h1>Accessdeeds_work </h1>
+        <h3>Click on button below</h3>
+        <div class="">
+        <div class="box box1">BLUE<br><br><span id="demo1"></span> </div>
+        <div class="box" style="background-color: green;">GREEN <br><br><span id="demo2"></span></div>
+        <div id="box3" class="box ">YELLOW <br><br><span id="demo3"></span></div>
+        <div class="box ">BLANK <br><br><span id="demo4"></span></div>
+    </div>
+    <br>
+
+
+    <button onclick="myFunction()"> Color Contrast analyser</button>
+
+    
+    
+    <script>
+    function myFunction() {
+      document.getElementById("demo1").innerHTML = " Color Contrast analyser : 2.44";
+      document.getElementById("demo2").innerHTML = " Color Contrast analyser : 4.08";
+      document.getElementById("demo3").innerHTML = " Color Contrast analyser : 19.55";
+      document.getElementById("demo4").innerHTML = " Color Contrast analyser : 21";
+
+      
+    
+    }
+    </script>
+
+
+
+
+
+
+        <script>
+          document.getElementById("box3").style.backgroundColor = "yellow";
+        </script>
+        
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+
+
+
+
+
+
+
+</html>
